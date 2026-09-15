@@ -1,6 +1,6 @@
 ---
 name: digerir
-description: Compila muitas fontes espalhadas (vídeos, PDFs, transcrições, artigos, conversas, documentos) num único livro digerido, que substitui consumir todas elas. Mescla o que se repete, agrupa as ramificações, debate as contradições, integra o que só uma fonte tem, e reescreve tudo numa ordem e numa linguagem agradáveis de ler. Não perde nada de nenhuma fonte e não resume. Use quando pedirem "digerir", "compila tudo", "junta isso num texto só", "monta um estudo/aula/livro disso", "elimina as redundâncias", "conecta os pontos", ou quando uma conversa acumulou material de várias fontes e a pessoa quer o resultado num documento único, mesmo sem citar a skill.
+description: Compila muitas fontes espalhadas (vídeos, PDFs, transcrições, artigos, conversas, documentos) num único livro digerido, que substitui consumir todas elas. Sai em duas partes: primeiro a aula, que ensina o conteúdo unificado do zero sem interrupção, e depois a discussão, com as divergências, o que envelheceu, o que só uma fonte tem e o que cada crítica revelou. Mescla o que se repete, agrupa as ramificações, debate as contradições. Não perde nada de nenhuma fonte e não resume. Use quando pedirem "digerir", "compila tudo", "junta isso num texto só", "monta um estudo/aula/livro disso", "elimina as redundâncias", "conecta os pontos", ou quando uma conversa acumulou material de várias fontes e a pessoa quer o resultado num documento único, mesmo sem citar a skill.
 argument-hint: [o que compilar, ou nada se o material já está na conversa]
 ---
 
@@ -25,6 +25,53 @@ Isso implica as duas metades do trabalho, e as duas são obrigatórias:
 **A compilação.** Mesclar o que se repete, agrupar o que ramifica, debater o que se contradiz, integrar o que só uma fonte tem. É o trabalho de relação entre fontes, e está na tabela do passo 2.
 
 **A reescrita.** O resultado sai na sua voz, na ordem que você descobriu ser a melhor, numa linguagem agradável. É o trabalho de exposição, e é o que separa um livro de um relatório de pesquisa.
+
+## ⛔ A estrutura: duas partes, nessa ordem
+
+**Todo livro digerido tem duas partes, e misturá-las é o erro mais grave desta skill.**
+
+```
+PARTE 1: A AULA                      PARTE 2: A DISCUSSÃO
+o conteúdo unificado                 o que só aparece por ter
+que substitui as fontes              visto todas as fontes juntas
+
+você ensinando, do zero              você e o leitor conversando
+zero citação                         citação onde a formulação é insubstituível
+zero nome de fonte                   as fontes aparecem
+zero contraponto                     as brigas, as correções, os casos negativos
+zero "há quem discorde"              o que envelheceu, quem abandonou
+```
+
+**A Parte 1 é o produto principal.** Quem lê só ela sabe o assunto e consegue aplicar. Ela se sustenta sozinha, e é escrita como se a Parte 2 não existisse.
+
+**A Parte 2 espelha a Parte 1**, capítulo por capítulo, e só existe onde há debate real. Onde não há, o capítulo não existe na segunda parte. Ali sim entra tudo da tabela de relações: divergência, correção, contribuição única, caso negativo, autocrítica.
+
+⚠️ **O erro que isso corrige** (livro de GTD, versão 3): a aula e a discussão estavam misturadas em cada capítulo. O capítulo sobre caixa de entrada explicava um pouco e já discutia quantas caixas ter, papel contra digital, e quem abandonou. Feedback literal: *"a seção da caixa de entrada não é uma seção explicando a caixa de entrada, é uma seção discutindo sobre a caixa de entrada. Não está ensinando, está discutindo. Ou seja, é um livro para quem já sabe."*
+
+**Por que a mistura é fatal:** debater uma peça exige que o leitor já tenha a peça. Se você discute no meio da explicação, obriga quem não conhece o assunto a formar opinião sobre algo que ainda não entendeu, e quem conhece a garimpar o ensino no meio do debate. Os dois leitores saem mal servidos.
+
+**O teste, antes de escrever uma frase na Parte 1:** *"isso ensina, ou isso comenta o que ensinei?"* Se comenta, vai para a Parte 2, inclusive quando é elogio ao método.
+
+### A forma da Parte 1 muda com o tipo de material
+
+A Parte 1 é sempre **o conteúdo unificado**, e o que isso significa depende do que foi consumido:
+
+| Tipo de consumo | A Parte 1 é |
+|---|---|
+| Método, filosofia, disciplina | o método inteiro, ensinado do zero |
+| Cursos técnicos sobre o mesmo tema | a grade unificada, uma passagem por tópico |
+| Posts de um concorrente (benchmarking) | o manual do método **dele**: o que ele faz, como, com que frequência |
+| Decisão a tomar (qual banco, qual stack) | o mapa das opções e dos eixos que de fato diferenciam |
+| Assunto de saúde / ciência | a fisiologia e o que se sabe, com o grau de certeza junto |
+| Ferramenta específica | o modelo mental dela e o fluxo que funciona |
+| Assunto que evoluiu rápido | onde a coisa está hoje, e por quê (nunca cronologia primeiro) |
+| Preparação para uma conversa concreta | o que você precisa saber e as respostas prontas |
+| Comparação antes de comprar | como a categoria funciona e qual especificação muda a experiência |
+| Crítica sobre uma obra | a obra e seu contexto, sem interpretação |
+
+⚠️ **Não force "ensinar o assunto do zero" onde o pedido é outro.** Num benchmarking, a Parte 1 não é um curso de marketing de conteúdo: é a descrição sistematizada da prática daquele concorrente. O critério que cobre todos os casos é o mesmo: **quem leu só a Parte 1 consegue fazer a coisa que motivou o consumo.**
+
+**O peso entre as partes varia.** Num método, a aula é maior. Num assunto de saúde ou numa crítica de obra, a discussão pode ser maior. Não fixe proporção.
 
 ## O que isto NÃO é
 
@@ -100,9 +147,11 @@ Imagine alguém que estudou as 66 fontes durante um ano. Leu, anotou, conectou. 
 
 ## O que isso significa na prática
 
-**Citação é exceção, não estrutura.** Entra quando a formulação original é insubstituível e vale ser lida palavra por palavra. Num livro de 60 fontes isso dá umas quinze citações, não trezentas. Se mais de 10% do texto está em blockquote, você está colando, não digerindo.
+**Na Parte 1, zero citação.** Nenhuma. Se a formulação de alguém é boa, você diz aquilo com as suas palavras, encaixado no que está explicando. Pensa num curso de Python: ao ensinar função, você não cita o que o instrutor de um dos cursos falou, você ensina função. Citar dentro da aula lembra o leitor de que existem fontes que ele não leu, e o livro existe justamente para ele não precisar delas.
 
-**Nada de "a fonte X disse que".** A informação entra como você afirmando, porque você sabe. Quando o número de fontes que concordam é informativo, você diz o número em prosa: *"todo mundo repete essa frase, e ela é incompleta"*, *"três praticantes independentes abandonaram essa peça"*.
+**Na Parte 2, citação onde a formulação é insubstituível.** Num livro de 60 fontes isso dá umas quinze, não trezentas. Se mais de 10% do texto está em blockquote, você está colando, não digerindo.
+
+**Nada de "a fonte X disse que", nas duas partes.** A informação entra como você afirmando, porque você sabe. Na Parte 2, quando o número de fontes que concordam é informativo, você diz o número em prosa: *"todo mundo repete essa frase, e ela é incompleta"*, *"três praticantes independentes abandonaram essa peça"*.
 
 **A tabela de relações desaparece no texto final.** Igual, adição, contradição, ramificação: isso é como você **descobre** o que é consenso, o que é voz de um só, onde está a briga. Depois de descobrir, o resultado vai em prosa. ⚠️ Rótulo de relação em cada parágrafo transforma o livro em planilha anotada.
 
@@ -129,7 +178,19 @@ Esta é a lei que se perde mais fácil, porque ela não se manifesta como frase 
 
 Falhar no segundo produz um livro de comentário sobre uma coisa que o leitor não conhece, que é o gênero mais inútil que existe.
 
-**Como isso se resolve na prática:** ensinar e discutir andam juntos, no mesmo capítulo, nunca em blocos separados. Você explica a peça e, ali mesmo, conta o que as fontes revelaram sobre ela: onde discordam, o que envelheceu, quem abandonou. Separar daria um manual ingênuo seguido de uma crítica sem objeto.
+**Como isso se resolve na prática:** a Parte 1 ensina sem interrupção, e a Parte 2 discute depois. Ensinar e discutir no mesmo parágrafo parece elegante e produz um livro que não serve para ninguém: ver a seção da estrutura, acima.
+
+## As regras de ensino da Parte 1
+
+Quatro regras, e cada uma nasceu de erro cometido.
+
+**Cada capítulo assume o que veio antes e nada do que vem depois.** Referência para trás é ótima, porque recompensa quem leu em ordem. Para frente é dívida: manda o leitor guardar uma pergunta que você não vai responder agora. "Ver capítulo 9" na aula é confissão de que a ordem está errada.
+
+**O termo nasce onde a coisa aparece, nomeada depois de vista.** ⚠️ **Nunca uma seção de vocabulário**: lista corrida de definições entra num ouvido e sai no outro, porque cada item é independente e a memória não tem onde pendurar. Errado: "tralha é tudo que você capturou e ainda não processou". Certo: você despeja tudo na caixa, aquilo é um monte de coisa indefinida, e o método chama isso de tralha. O nome vira etiqueta para algo que o leitor já tem na mão.
+
+**Cada peça nasce do problema que ela resolve.** Se você apresenta a solução antes de o leitor sentir a dor, ele decora em vez de entender. A ordem dos capítulos é a ordem em que os problemas aparecem.
+
+**Nada de meta-narração.** "Neste capítulo vamos ver", "como veremos adiante", "agora que entendemos". Isso é o índice se intrometendo no texto. Comece a explicar.
 
 ## Claro sem ser infantil
 
@@ -266,7 +327,7 @@ Se usar selo, três no máximo:
 
 ---
 
-# O processo, em 6 passos
+# O processo, em 7 passos
 
 ## 1. Inventário (silencioso, não mostra pro usuário)
 
@@ -298,9 +359,26 @@ Esta é a etapa que diferencia digestão de resumo, e é o coração da skill. *
 
 **A discordância, a contribuição original e o caso negativo são o ouro.** Quando um praticante de 10 anos abandona uma peça do método, quando alguém cria algo que o método não tinha, ou quando alguém relata que piorou. Isso ensina mais que trinta fontes repetindo o básico.
 
-## 3. Montar o índice e testá-lo
+## 3. ⛔ Aprovar a arquitetura ANTES de escrever
 
-Ordem argumentativa, conforme acima. Cada parte com um ganho declarado para o leitor. Só depois de o índice contar uma história, e de ensinar o assunto e não só comentá-lo, é que se escreve.
+**Não escreva uma linha antes de o desenho estar aprovado.** Passada única custa caro para refazer, e refazer por decisão de estrutura é o desperdício mais burro que existe nesta skill.
+
+Apresente o desenho e espere. É o equivalente a arquitetura de software: fazer a pessoa visualizar o livro pronto antes de ele existir, e ajustar no desenho, que é barato.
+
+**O que apresentar, e nada além disso:**
+
+- Os títulos dos capítulos da Parte 1, em ordem, em lista
+- Os títulos dos capítulos da Parte 2, em ordem, em lista
+- Uma linha dizendo o que a Parte 1 entrega, e uma para a Parte 2
+- As decisões de desenho que você tomou e que ela pode querer diferente
+
+⚠️ **Curto.** Leitura de um minuto, e lista em vez de prosa. Um overview longo não é lido, e aí a aprovação é falsa. Erro real cometido nesta skill: apresentei um overview com parágrafo explicativo por capítulo, e o retorno foi *"esse overview aí eu achei muito grande, eu não li nem metade"*.
+
+⚠️ **Nada de decisão embutida sem avisar.** Se você resolveu tirar uma seção de lugar, cortar um apêndice ou não usar citação, isso é decisão de desenho e vai na lista, com uma linha. Decisão silenciosa vira retrabalho.
+
+Depois de aprovado, o índice detalhado é trabalho seu e não precisa de revisão: a arquitetura já foi.
+
+**Teste antes de apresentar:** leia só os títulos da Parte 1 em sequência. Isso ensina o assunto, ou só comenta ele? Se os títulos são "o que as fontes acham de X" e nenhum é "como X funciona", refaça antes de mostrar.
 
 ## 4. Escrever o livro inteiro, numa passada, num arquivo só
 
@@ -308,7 +386,7 @@ Lei nº 5 aplicada: **um arquivo, escrito de uma vez, com todo o material no con
 
 ### Regras de escrita do corpo
 
-- **Citação literal** para o que é dito melhor no original. Blockquote, autor nomeado. Ancora e dá autoridade
+- **Citação literal só na Parte 2**, para o que é dito melhor no original. Blockquote, autor nomeado. Na Parte 1 não existe citação: ver Lei nº 3
 - **Número, n, ano, periódico** sempre que existir. "Melhora significativamente" não ensina; "IELT de 120s para 180s, n=199" ensina
 - **Tabela** onde há comparação ou classificação. **Diagrama ASCII** onde há fluxo ou hierarquia
 - **A fonte aparece no meio do argumento**, nunca como cabeçalho de seção
@@ -339,10 +417,27 @@ As duas últimas seções são as mais úteis do livro:
 
 Vai para o fim tudo que é consulta e não leitura:
 
-- **Fontes numeradas** (F01, F02...) com título, autor, link. O corpo cita `F34`; a lista completa fica aqui
+- **Fontes numeradas** (F01, F02...) com título, autor, link. É rastreabilidade, para quem quiser conferir de onde veio algo
 - **Perguntas em aberto**: cada ❓ do corpo vira item
-- **Glossário**, se o assunto tem jargão
 - **Trechos literais longos** que você citou em parte
+
+⚠️ **O anexo não ensina nada.** Nada que o leitor precise saber pode morar ali, porque anexo não é lido. Se você se pegou pondo conteúdo no anexo, ele pertence à Parte 1.
+
+⚠️ **E nunca diga qual fonte vale a pena consultar depois.** Isso pressupõe que ficou conteúdo de fora, o que contradiz a Lei nº 1. Se o livro está completo, não existe fonte que valha ler depois. O anexo é rastreabilidade, não recomendação de leitura.
+
+## 7. Auditar o que você escreveu
+
+**Livro feito de dezenas de transcrições sai plausível e parcialmente falso.** Relendo você não percebe, porque o texto é coerente, e é exatamente por isso que o erro passa.
+
+Confira você mesmo, no material bruto, cada item desta lista:
+
+1. **Números** ("duas semanas" onde a fonte diz "15 dias", "15 de 65" onde são 12)
+2. **Citações entre aspas ou em blockquote**, palavra por palavra. Se é paráfrase, sai das aspas
+3. **Absolutos sem a exceção** ("nenhuma fonte menciona X" quando uma menciona de passagem)
+4. **Atribuição** (a frase é do autor do método ou de um comentarista? Isso muda o peso)
+5. **Contagem de fontes** em qualquer afirmação do tipo "três praticantes abandonaram"
+
+E audite a estrutura: `grep` por referência a capítulo futuro dentro da Parte 1, e confira se algum trecho da Parte 1 está discutindo em vez de ensinando.
 
 ---
 
