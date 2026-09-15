@@ -108,9 +108,37 @@ E resista a propor construir coisa nova: quase sempre a conclusão honesta é qu
 
 ---
 
-# Se o material ainda não foi coletado
+# O par: /consume + /digerir
 
-Colete antes com `/consume` (vídeo, post, curso, arquivo local) ou lendo os arquivos direto.
+**As duas skills são um fluxo de duas etapas, e é assim que devem ser usadas:**
+
+```
+/consume  ──►  muitas fontes, de uma vez
+/digerir  ──►  um estudo único
+```
+
+## Por que consumir em lote é o desenho certo
+
+Contraintuitivo, mas: **consumir muito de uma vez e digerir depois é melhor que consumir pouco.**
+
+O FOMO de conteúdo tem duas origens, e o par resolve as duas:
+
+| Origem do FOMO | Como o par resolve |
+|---|---|
+| "Preciso ver mais um pra garantir que não perdi nada" | Cobertura. Você consome todas as fontes relevantes de uma vez, e o medo de perder some porque não sobrou fonte |
+| "Vi muita coisa e não consigo aplicar nada" | Síntese. O output é um documento único e acionável, não trinta vídeos soltos na memória |
+
+**O gargalo nunca foi o volume de consumo. Foi a síntese.** Pedaço solto na cabeça gera a sensação de que falta algo; documento fechado encerra o assunto.
+
+Isso é o mesmo mecanismo do loop aberto do GTD: o que consome atenção é o não processado, não o não consumido.
+
+⚠️ **O critério de parada não é um número de fontes. É saturação:** pare quando as fontes novas só repetirem o que você já tem. Se a quinta fonte não acrescentou relação nova (nem complementar, nem única, nem contradição), acabou.
+
+---
+
+# Coletando o material
+
+Colete com `/consume` (vídeo, post, curso, arquivo local) ou lendo os arquivos direto.
 
 **Duas coisas que valem o esforço extra:**
 
