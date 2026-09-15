@@ -1,12 +1,12 @@
 ---
 name: digerir
-description: Compila muitas fontes espalhadas (vídeos, PDFs, transcrições, artigos, conversas, documentos) num único livro digerido: como se você tivesse assistido tudo, anotado, conectado os pontos e agora fosse ensinar. Não perde nada de nenhuma fonte, elimina repetição em vez de conteúdo, organiza em ordem argumentativa (cada parte usa o que a anterior estabeleceu) e marca onde as fontes concordam, se complementam, se ramificam e se contradizem. Use quando o Iago pedir "digerir", "compila tudo", "junta isso num texto só", "monta um estudo/aula/livro disso", "elimina as redundâncias", "conecta os pontos", ou quando uma conversa acumulou material de várias fontes e ele quer o resultado num documento único, mesmo sem citar a skill.
+description: Compila muitas fontes espalhadas (vídeos, PDFs, transcrições, artigos, conversas, documentos) num único livro digerido, que substitui consumir todas elas. Mescla o que se repete, agrupa as ramificações, debate as contradições, integra o que só uma fonte tem, e reescreve tudo numa ordem e numa linguagem agradáveis de ler. Não perde nada de nenhuma fonte e não resume. Use quando pedirem "digerir", "compila tudo", "junta isso num texto só", "monta um estudo/aula/livro disso", "elimina as redundâncias", "conecta os pontos", ou quando uma conversa acumulou material de várias fontes e a pessoa quer o resultado num documento único, mesmo sem citar a skill.
 argument-hint: [o que compilar, ou nada se o material já está na conversa]
 ---
 
 # digerir: de muitas fontes para um livro
 
-O pedido original, nas palavras dele:
+O pedido, nas palavras de quem criou a skill:
 
 > "Compila tudo em um único texto eliminando as redundâncias, como um estudo geral: como se eu tivesse assistido tudo, anotado, conectado os pontos, e tivesse que ensinar pra alguém. Eu não falaria o mesmo conteúdo de todos, pois cada um tem coisas iguais que não precisa repetir, ou que se conectam, ou que se complementam, ou que se contrariam. Aí dá pra montar um livro-texto / aula ensinando tudo de forma digerida e **sem perder nada**."
 
@@ -14,12 +14,24 @@ E a correção que define o formato:
 
 > "Seria melhor o digerir criar um único doc completo, de livro. Pois o compilado precisa ser legível, então é muito melhor em uma cadeia única de pensamento você montar esse doc. Pois o livro precisa ser numa ordem e linguagem agradável de ler. E não tem tamanho mínimo nem máximo: é o tamanho que precisa. Se são só dois vídeos, não vai ser uma bíblia."
 
+## O contrato: o livro substitui as fontes
+
+**Ler o livro tem que equivaler a consumir todas as fontes, e entender melhor.** Melhor porque as fontes falam tudo espalhado, cada coisa num lugar, cada uma repetindo o que a outra já disse, e nenhuma conecta com as outras. O livro faz o que nenhuma delas podia fazer: reescreve o conjunto na forma ótima.
+
+Quem lê não deve precisar assistir nada depois. Se precisar, a skill falhou.
+
+Isso implica as duas metades do trabalho, e as duas são obrigatórias:
+
+**A compilação.** Mesclar o que se repete, agrupar o que ramifica, debater o que se contradiz, integrar o que só uma fonte tem. É o trabalho de relação entre fontes, e está na tabela do passo 2.
+
+**A reescrita.** O resultado sai na sua voz, na ordem que você descobriu ser a melhor, numa linguagem agradável. É o trabalho de exposição, e é o que separa um livro de um relatório de pesquisa.
+
 ## O que isto NÃO é
 
 - **Não é resumo.** Resumo encurta e perde. Digestão reorganiza e mantém tudo que ensina algo.
 - **Não é lista de fontes.** "O vídeo A disse X, o vídeo B disse Y" é catálogo, não livro. A fonte vira citação dentro do argumento, nunca seção.
 - **Não é concatenação.** Se o resultado tem o mesmo conceito explicado duas vezes, falhou.
-- **Não é curadoria.** Você não decide o que é relevante. A curadoria já aconteceu quando ele escolheu consumir aquelas fontes.
+- **Não é curadoria.** Você não decide o que é relevante. A curadoria já aconteceu quando a pessoa escolheu consumir aquelas fontes.
 - **Não é entrega em partes no chat.** Parte 1 de 4 no chat é relatório fatiado. A saída é **um arquivo**, lido de cabo a rabo.
 
 ---
@@ -80,11 +92,11 @@ Corolário direto da lei nº 1 aplicada à forma. Um conceito explicado duas vez
 
 **A saída é uma aula que VOCÊ dá, não o caderno de anotações que você fez.**
 
-Imagine que o Iago estudou as 66 fontes durante um ano. Leu, anotou, conectou. Descobriu que A e B dizem o mesmo com palavras diferentes, que C contradiz os dois e tem razão num ponto, que D acrescentou algo que ninguém viu. Processou até virar conhecimento dele. Agora ele senta e ensina.
+Imagine alguém que estudou as 66 fontes durante um ano. Leu, anotou, conectou. Descobriu que A e B dizem o mesmo com palavras diferentes, que C contradiz os dois e tem razão num ponto, que D acrescentou algo que ninguém viu. Processou até virar conhecimento próprio. Agora senta e ensina.
 
-**Ele não abre o caderno de citações. Ele fala.** E o que sai é a explicação dele, na ordem que ele descobriu ser a melhor, com tudo dentro porque ele sabe tudo.
+**Essa pessoa não abre o caderno de citações. Ela fala.** E o que sai é a explicação dela, na ordem que ela descobriu ser a melhor, com tudo dentro porque ela sabe tudo.
 
-É isso que o digerir produz. O caderno organizado é a v1 do livro de GTD, e ela estava errada.
+É isso que o digerir produz.
 
 ## O que isso significa na prática
 
@@ -92,32 +104,59 @@ Imagine que o Iago estudou as 66 fontes durante um ano. Leu, anotou, conectou. D
 
 **Nada de "a fonte X disse que".** A informação entra como você afirmando, porque você sabe. Quando o número de fontes que concordam é informativo, você diz o número em prosa: *"todo mundo repete essa frase, e ela é incompleta"*, *"três praticantes independentes abandonaram essa peça"*.
 
-**A tabela de relações desaparece no texto final.** Igual, adição, contradição, ramificação: isso é como você **descobre** o que é consenso, o que é voz de um só, onde está a briga. Depois de descobrir, o resultado vai em prosa. ⚠️ Rótulo de relação em cada parágrafo transforma o livro em planilha anotada, e foi o erro da v1.
+**A tabela de relações desaparece no texto final.** Igual, adição, contradição, ramificação: isso é como você **descobre** o que é consenso, o que é voz de um só, onde está a briga. Depois de descobrir, o resultado vai em prosa. ⚠️ Rótulo de relação em cada parágrafo transforma o livro em planilha anotada.
 
 **Nomes: só quem é indispensável.** O autor do método aparece com nome, porque não dá para falar do método sem ele. Todos os outros somem para dentro do texto: *"um cara que praticava há vinte anos largou os contextos"*, *"uma mãe com dois filhos pequenos refez o método porque não tinha os dois dias que o livro pede"*. A tabela de fontes fica no anexo para quem quiser rastrear.
 
-## Feynman é cobertura, antes de ser estilo
+---
 
-**O livro ensina o assunto inteiro, do zero, para quem nunca viu.** Alguém que leu só este documento sai sabendo o assunto e consegue aplicar sozinho, sem ter lido nenhuma fonte.
+# ⛔ Lei nº 4: ensinar o assunto inteiro, do zero
 
-Isso é a parte do pedido que se perde mais fácil, porque ela não se manifesta como frase errada no texto: manifesta-se como **capítulo que não existe**. Ninguém revisando o livro repara na explicação que falta.
+**Alguém que leu só este documento sai sabendo o assunto e consegue aplicar sozinho, sem ter lido nenhuma fonte.**
 
-⚠️ **O erro real (livro de GTD, v2):** eu abri dizendo que o leitor já praticava GTD e por isso não precisava saber o que é uma caixa de entrada, e fui direto para "o que as fontes revelam sobre o método". O livro discutia um método que nunca ensinou. Ele pediu para estudar o assunto justamente por não praticar.
+Esta é a lei que se perde mais fácil, porque ela não se manifesta como frase errada no texto: manifesta-se como **capítulo que não existe**. Ninguém revisando o livro repara na explicação que falta.
 
-**O teste de cobertura da Lei nº 1 não pega isso**, porque ele pergunta se tudo que as fontes ensinam está no livro. As fontes pressupõem o básico do próprio assunto, então o básico não está em nenhuma delas, e o livro passa no teste sem ensinar nada. Então o teste é duplo:
+⚠️ **O erro real, num livro de GTD:** a versão 2 abriu dizendo que o leitor já praticava GTD e por isso não precisava saber o que é uma caixa de entrada, e foi direto para "o que as fontes revelam sobre o método". O livro discutia um método que nunca ensinou. A pessoa tinha mandado estudar o assunto justamente por não praticar.
+
+**Nunca pressuponha que o leitor já sabe o assunto, e nunca peça permissão para pular o básico.** Se você se pegar escrevendo "você já conhece X, então não vou explicar", pare: você acabou de inventar um leitor para justificar um corte. Quem manda estudar não sabe ainda.
+
+**O teste da Lei nº 1 não pega isso**, porque ele pergunta se tudo que as fontes ensinam está no livro. As fontes pressupõem o básico do próprio assunto, então o básico não está em nenhuma delas, e o livro passa no teste sem ensinar nada. Por isso o teste é duplo:
 
 | Teste | Pergunta |
 |---|---|
 | **Cobertura das fontes** (Lei nº 1) | Tudo que cada fonte ensina está em algum lugar do livro? |
-| **Cobertura do assunto** (Feynman) | Um leigo que leu só isto sabe o assunto e consegue aplicar? |
+| **Cobertura do assunto** (Lei nº 4) | Um leigo que leu só isto sabe o assunto e consegue aplicar? |
 
 Falhar no segundo produz um livro de comentário sobre uma coisa que o leitor não conhece, que é o gênero mais inútil que existe.
 
 **Como isso se resolve na prática:** ensinar e discutir andam juntos, no mesmo capítulo, nunca em blocos separados. Você explica a peça e, ali mesmo, conta o que as fontes revelaram sobre ela: onde discordam, o que envelheceu, quem abandonou. Separar daria um manual ingênuo seguido de uma crítica sem objeto.
 
-## Feynman: o teste que separa digerir de parafrasear
+## Claro sem ser infantil
 
-Da skill `explain-codebase`, e vale igual aqui:
+Explicar bem e explicar para criança são coisas diferentes, e a segunda estraga o livro.
+
+O alvo é **um adulto inteligente que não conhece este assunto**. Ele entende raciocínio complexo; ele só não tem o vocabulário e o contexto ainda. Então você entrega o vocabulário e o contexto, e mantém a complexidade inteira.
+
+| Infantilizado (ruim) | Claro (bom) |
+|---|---|
+| Analogia fofa que substitui o mecanismo | Analogia que **introduz** o mecanismo e depois sai de cena |
+| "Simples assim!", "e pronto!", "fácil, né?" | O leitor decide sozinho se foi fácil |
+| Cortar a nuance para não confundir | Manter a nuance e explicar por que ela existe |
+| Repetir a mesma ideia com outras palavras para "fixar" | Dizer uma vez, bem |
+| Emoji decorativo, exclamação, tom animado | Tom de quem sabe e está contando |
+| Tratar o leitor como se fosse desistir a qualquer momento | Tratar o leitor como quem quer entender de verdade |
+
+⚠️ **O sinal de que passou do ponto:** você está explicando algo que a frase anterior já explicou. Ou recuando de um detalhe técnico com "mas não precisa entender isso agora". Se não precisa entender, corte; se precisa, explique.
+
+**O que de fato torna agradável de ler**, e nada disso é simplificação:
+
+- **Ordem de pré-requisito.** A dificuldade real vem de encontrar um termo antes da definição dele, não da complexidade da ideia
+- **Concreto antes de abstrato.** O exemplo primeiro, o princípio depois
+- **Dizer o porquê junto com o quê.** Regra sem razão vira coisa a decorar
+- **Frases que variam de tamanho.** Ritmo uniforme cansa mais que ideia difícil
+- **Traduzir para o repertório do leitor**, quando ele tem um. Se ele é programador e o assunto é produção de eventos, a ponte é explícita
+
+## Feynman: o teste que separa digerir de parafrasear
 
 | Parafraseando (ruim) | Explicando (bom) |
 |---|---|
@@ -126,11 +165,11 @@ Da skill `explain-codebase`, e vale igual aqui:
 
 **Teste:** se a frase descreve *o que a fonte falou*, é paráfrase e não vale o espaço. Se descreve *por que aquilo é verdade e o que decorre disso*, é explicação.
 
-E o corolário que a v1 violou: **a explicação boa frequentemente não está em fonte nenhuma.** Ela é a conexão que você faz entre duas fontes que nunca se falaram. Isso não é invenção: é o produto do trabalho.
+E o corolário: **a explicação boa frequentemente não está em fonte nenhuma.** Ela é a conexão que você faz entre duas fontes que nunca se falaram. Isso não é invenção: é o produto do trabalho.
 
 ---
 
-# ⛔ Lei nº 4: uma passada só, tudo no contexto
+# ⛔ Lei nº 5: uma passada só, tudo no contexto
 
 **Escreva o livro inteiro numa cadeia de raciocínio única, com todo o material bruto no contexto.**
 
@@ -140,7 +179,7 @@ Isso é o que você tem e um humano não: capacidade de carregar 150 mil palavra
 
 Consequências práticas:
 
-- **Um arquivo.** Não 18 capítulos numerados (isso foi solução de engenharia para um problema que você não tem).
+- **Um arquivo.** Não 18 capítulos numerados (isso é solução de engenharia para um limite de memória que você não tem).
 - **Leve o tempo que precisar numa resposta só.** Não entregue em partes no chat.
 - **Zero referência para frente.** Se o gancho é útil, resolve ali em duas frases. "Volto nisso adiante" sem número é aceitável; "ver 11.4" é dívida.
 - **Referência para trás é ótima**, porque recompensa quem leu em ordem e reforça o encadeamento.
@@ -180,20 +219,18 @@ O índice é a espinha do argumento. Se ele está ruim, o livro está ruim, e é
 
 **Teste do índice:** leia só os títulos em sequência. Isso conta uma história? Se ler como lista de tópicos, refaça.
 
-⚠️ **Segundo teste do índice, e é onde a v2 do GTD morreu:** o índice ensina o assunto, ou só comenta ele? Se os títulos são todos "o que as fontes acham de X" e nenhum é "como X funciona", falta o livro inteiro. As peças do assunto precisam estar no índice com nome próprio, em ordem de pré-requisito.
+⚠️ **Segundo teste do índice, e é onde a v2 do livro de GTD morreu:** o índice ensina o assunto, ou só comenta ele? Se os títulos são todos "o que as fontes acham de X" e nenhum é "como X funciona", falta o livro inteiro. As peças do assunto precisam estar no índice com nome próprio, em ordem de pré-requisito.
 
 ---
 
 # A abertura: "como ler este documento"
 
-Todo livro digerido começa com uma abertura curta que faz cinco coisas, antes do índice:
+Todo livro digerido começa com uma abertura curta que faz quatro coisas, antes do índice:
 
-**1. Declara o leitor e de onde ele parte.**
-> "Você é arquiteto de software e é leigo em agência. Este texto assume exatamente isso."
+**1. Declara o que o documento faz e de onde ele parte.**
+> "Este texto faz duas coisas ao mesmo tempo: ensina o método do zero, e conta o que 66 materiais revelaram sobre ele."
 
-Normalmente o leitor é o Iago, e o ponto de partida é **leigo no assunto**, porque foi por não conhecer que ele mandou consumir as fontes.
-
-⚠️ **Nunca pressuponha que o leitor já sabe o assunto, e nunca peça permissão para pular o básico.** Se você se pegar escrevendo "você já conhece X, então não vou explicar", pare: você acabou de inventar um leitor para justificar um corte. Ele pediu para estudar aquilo. Quem estuda não sabe ainda.
+O ponto de partida do leitor é **leigo no assunto** (Lei nº 4). Se o assunto tem um pré-requisito real e externo (saber programar, ser da área), declare qual é.
 
 **2. Declara a ordem e o tempo de leitura.**
 > "Foi escrito para ser lido em sequência, em umas três horas. A ordem importa: cada parte usa vocabulário e conclusões que a anterior estabeleceu. Se pular direto para as telas, vai ler nomes que ainda não significam nada."
@@ -204,19 +241,14 @@ Esta é a peça que resolve a legibilidade. Em vez de marcar relação em cada p
 
 > "Esta edição funde 65 fontes independentes sobre o mesmo assunto. **O que todas acertaram está aqui uma vez só. O que uma errou, outra corrigiu. Onde discordavam, a decisão está explicada no texto.**"
 
-**4. Explica a convenção de selos, e por que ela existe.**
-
-A razão precisa ser concreta, não formal. Modelo real:
-> "Essa marcação existe por um motivo. Na conversa anterior, uma IA descreveu bastidores da operação como se fossem fato e depois teve que voltar atrás. Misturar o que sei com o que suponho é como misturar dado validado com dado de teste no mesmo banco: funciona até o dia em que não funciona."
-
-**5. Declara o caso concreto, se houver, e que é ilustrativo.**
+**4. Declara o caso concreto, se houver, e que é ilustrativo.**
 > "A partir da Parte I, um exemplo fictício acompanha o livro. Todos os números e pessoas são inventados. Ele existe para dar concretude ao mecanismo, não para descrever um caso real."
 
 ---
 
 # Marcação: o mínimo possível
 
-⚠️ **Nenhum rótulo de relação entre fontes no corpo do texto.** Isso é Lei nº 3 e foi o erro da v1.
+⚠️ **Nenhum rótulo de relação entre fontes no corpo do texto.** Isso é Lei nº 3.
 
 E vá com calma até nos selos de confiança. Num texto em prosa, **o mais limpo é dizer em palavras**: "na minha leitura", "isso é dedução minha", "o material não responde". Selo só quando a distinção precisa ser escaneável, tipo num anexo de perguntas abertas.
 
@@ -247,15 +279,15 @@ Antes de escrever, liste mentalmente:
 
 ## 2. Classificar cada informação por RELAÇÃO com as outras fontes
 
-Esta é a etapa que diferencia digestão de resumo. **Nenhuma relação autoriza descartar**: cada uma diz apenas *onde* a informação vai e *como* escrevê-la em prosa.
+Esta é a etapa que diferencia digestão de resumo, e é o coração da skill. **Nenhuma relação autoriza descartar**: cada uma diz apenas *onde* a informação vai e *como* escrevê-la em prosa.
 
 | Relação | O que fazer no texto |
 |---|---|
 | **Igual** (várias fontes dizem o mesmo) | Uma aparição só, na formulação melhor. As outras entram só se agregarem número, exemplo ou frase melhor. Se o *número* de fontes que concordam é informativo, diga o número |
 | **Novo** (só uma fonte tem) | Integral, e o texto diz que é único: "só uma fonte de 65 nomeia isso". Costuma ser o mais valioso do livro |
 | **Adição** (complementa sem contradizer) | Mesmo bloco, creditando quem acrescentou |
-| **Ramificação** (base comum, aplicações diferentes) | Base uma vez, depois as variações |
-| **Discordância** (as fontes divergem) | ⚠️ **Nunca esconda.** Os dois lados, quem tem mais peso e por quê. Vira seção própria se for grande |
+| **Ramificação** (base comum, aplicações diferentes) | Base uma vez, depois as variações. ⚠️ Agrupar é obrigatório: variações espalhadas pelo livro é o defeito das fontes, não a solução |
+| **Discordância** (as fontes divergem) | ⚠️ **Nunca esconda, e nunca só liste.** Os dois lados, quem tem mais peso e por quê, e o seu veredito. Vira seção própria se for grande |
 | **Correção** (uma fonte mostra que outra errou) | Diferente de discordar: aqui uma está factualmente errada. Aponte o erro e a correção |
 | **Contradição aparente** (dois dados que parecem se excluir) | ⚠️ **Resolva, não liste.** Explique por que os dois podem ser verdade, e tire a lição. Modelo: "os números não indicam encolhimento; indicam a diferença entre o que passa pela empresa e o que fica nela" |
 | **Contribuição original** (a fonte inventou algo fora do material base) | ⚠️ Marque como criação da fonte, com o nome. É o mais fácil de perder e um dos mais úteis |
@@ -268,11 +300,11 @@ Esta é a etapa que diferencia digestão de resumo. **Nenhuma relação autoriza
 
 ## 3. Montar o índice e testá-lo
 
-Ordem argumentativa, conforme acima. Cada parte com um ganho declarado para o leitor. Só depois de o índice contar uma história é que se escreve.
+Ordem argumentativa, conforme acima. Cada parte com um ganho declarado para o leitor. Só depois de o índice contar uma história, e de ensinar o assunto e não só comentá-lo, é que se escreve.
 
 ## 4. Escrever o livro inteiro, numa passada, num arquivo só
 
-Lei nº 4 aplicada: **um arquivo, escrito de uma vez, com todo o material no contexto.** Capítulo por capítulo em arquivos numerados é solução de engenharia para um limite de memória que você não tem, e o preço é o livro desconectado.
+Lei nº 5 aplicada: **um arquivo, escrito de uma vez, com todo o material no contexto.**
 
 ### Regras de escrita do corpo
 
@@ -281,10 +313,10 @@ Lei nº 4 aplicada: **um arquivo, escrito de uma vez, com todo o material no con
 - **Tabela** onde há comparação ou classificação. **Diagrama ASCII** onde há fluxo ou hierarquia
 - **A fonte aparece no meio do argumento**, nunca como cabeçalho de seção
 - **Vocabulário numa tabela, uma vez.** Não redefine o termo quando ele reaparece
-- **Traduza para o repertório do leitor.** Uma seção "a analogia com o que você conhece" vale três de definição. Modelo: *"agência é uma integradora de sistemas, só que de coisas físicas. A diferença: no software você faz rollback; num evento o palco não fica pronto às 19h e 800 pessoas chegam às 20h. Não existe rollback, e isso explica a cultura de checklist que, para quem vem de software, parece burocracia e é sobrevivência."*
+- **Traduza para o repertório do leitor**, quando ele tem um. Modelo: *"agência é uma integradora de sistemas, só que de coisas físicas. A diferença: no software você faz rollback; num evento o palco não fica pronto às 19h e 800 pessoas chegam às 20h. Não existe rollback, e isso explica a cultura de checklist que, para quem vem de software, parece burocracia e é sobrevivência."*
 - **Um caso concreto atravessando o livro.** Mesma história reaparecendo em cada capítulo, mostrando o conceito daquele capítulo em ação. Se for inventado, declare na abertura
 - **Toda seção termina com a implicação ou com algo acionável.** Seção que só descreve é peso morto
-- **Síntese ao fim de cada capítulo, com nome próprio**: "O resumo que você precisa levar", "Como ler esses números", "O que isso significa na prática", "A frase que resume tudo". A síntese não espera o fim do livro
+- **Síntese ao fim de cada capítulo, com nome próprio**: "O resumo que você precisa levar", "Como ler esses números", "O que isso significa na prática". A síntese não espera o fim do livro
 - **O texto se autoavalia quando cabe.** Marcar o que é a sua leitura, e convidar a crítica: "esta é a inferência mais importante do documento, então vou mostrar o raciocínio"
 
 ## 5. Fechar com síntese, não com resumo
@@ -301,6 +333,8 @@ As duas últimas seções são as mais úteis do livro:
 
 **"A lição que atravessa tudo"**: o que aparece em todas as fontes, **inclusive nas que discordam entre si**. Isso é o núcleo duro do assunto, e é o que o leitor guarda se esquecer o resto.
 
+**"Por onde começar"**, quando o assunto é aplicável: a ordem de adoção, com os avisos de quem tentou.
+
 ## 6. Anexo: o que quebraria a leitura
 
 Vai para o fim tudo que é consulta e não leitura:
@@ -314,12 +348,12 @@ Vai para o fim tudo que é consulta e não leitura:
 
 # Quando o assunto tem aplicação pessoal
 
-Se o material tem relação com o sistema, a rotina ou os projetos do Iago, **acrescenta um apêndice curto** cruzando o livro com o que já existe:
+Se o material tem relação com o sistema, a rotina ou os projetos de quem pediu, **acrescenta um apêndice curto** cruzando o livro com o que já existe:
 
 ```
 | Peça do estudo | Nosso estado |
 |---|---|
-| X | ✅ já coberto em Áreas/N |
+| X | ✅ já coberto em <onde> |
 | Y | ❌ falta: e é o maior buraco |
 | Z | ⛔ não implementar: obsoleto (motivo) |
 ```
@@ -351,8 +385,6 @@ O FOMO de conteúdo tem duas origens, e o par resolve as duas:
 | "Vi muita coisa e não consigo aplicar nada" | Síntese. O output é um documento único e acionável, não trinta vídeos soltos na memória |
 
 **O gargalo nunca foi o volume de consumo. Foi a síntese.** Pedaço solto na cabeça gera a sensação de que falta algo; livro fechado encerra o assunto.
-
-Isso é o mesmo mecanismo do loop aberto do GTD: o que consome atenção é o não processado, não o não consumido.
 
 ⚠️ **O critério de parada não é um número de fontes. É saturação:** pare quando as fontes novas só repetirem o que você já tem. Se a quinta fonte não acrescentou relação nova (nem complementar, nem única, nem contradição), acabou.
 
@@ -397,9 +429,12 @@ Colete com `/consume` (vídeo, post, curso, arquivo local) ou lendo os arquivos 
 # Regras de escrita
 
 - **Zero travessão (—) e en dash (–).** Ponto, vírgula, dois-pontos ou parênteses
-- Português do Brasil, direto, sem floreio
+- **Zero construção "não é X, é Y".** Afirme Y direto. A negação antes da afirmação é marca de texto de IA, e ela se multiplica sem você perceber
+- Direto, sem floreio, sem tom animado
 - Se algo é incerto, **diga que é incerto**. Não preencha lacuna com plausibilidade
 - Se uma fonte errou (estudo mal citado, número inventado, conclusão que o desenho não sustenta), **aponte**
+
+Se a skill `/human-text` estiver instalada, vale rodar a checagem dela no fim.
 
 # Saída
 
@@ -407,12 +442,12 @@ Colete com `/consume` (vídeo, post, curso, arquivo local) ou lendo os arquivos 
 
 No chat vai só: onde salvou, o índice, e as três ou quatro coisas que mais surpreenderam no material.
 
-**Onde salvar:**
+**Onde salvar:** onde a pessoa indicar. Sem indicação, uma pasta com o nome do assunto, junto do material bruto, para o livro e as fontes ficarem no mesmo lugar.
 
-| Caso | Lugar |
-|---|---|
-| Estudo de assunto externo | `/tmp/<assunto>/livro.md` ou onde ele indicar |
-| Aprendizado durável sobre o sistema dele | `Notas/.claude/rules/Áreas/` |
-| Material de projeto | `.docs/` do projeto |
+**PDF quando pedirem, ou quando o livro passar de umas 400 linhas.** A skill traz o gerador pronto:
 
-**PDF/HTML quando ele pedir, ou quando o livro passar de umas 400 linhas.** O padrão que funciona está em `~/Documentos/Projetos/AYRA/.docs/v2/build.py`: concatena os capítulos, converte com `markdown` (extensões `tables`, `fenced_code`, `attr_list`, `sane_lists`), aplica CSS de livro (página 170×240mm, cabeçalho, número de página, `page-break-inside: avoid` em tabelas e blockquotes, `<pre>` protegido de substituição para não desalinhar arte ASCII) e imprime com `weasyprint`. Copiar e adaptar em vez de reinventar.
+```bash
+python3 <skill-dir>/scripts/build_pdf.py livro.md --title "Título" --subtitle "Subtítulo"
+```
+
+Ele converte o markdown com CSS de livro (página 170×240mm, cabeçalho, número de página, tabelas e blockquotes que não quebram entre páginas, arte ASCII preservada) e imprime com `weasyprint`. Precisa de `pip install weasyprint markdown`. Rode `--help` para as opções.
