@@ -50,7 +50,12 @@ Redundância é sobre **quantas vezes** algo é dito. Resumo é sobre **quanto**
 
 Não há mínimo nem máximo. Duas fontes viram um capítulo. Sessenta fontes viram um livro de dez partes. **Nem inflar para parecer completo, nem cortar para caber.**
 
-**Verificação obrigatória antes de entregar:** percorra fonte por fonte e pergunte *"tudo que esta fonte ensina está presente em algum lugar do livro?"*. Se a resposta for não para qualquer item, volte e escreva.
+**Verificação obrigatória antes de entregar**, e são duas passadas:
+
+1. Percorra fonte por fonte e pergunte *"tudo que esta fonte ensina está presente em algum lugar do livro?"*
+2. Percorra o índice e pergunte *"um leigo que leu só isto sabe o assunto e consegue aplicar?"*
+
+Se a resposta for não em qualquer uma das duas, volte e escreva. A segunda passada existe porque a primeira não pega o básico do assunto, que nenhuma fonte explica por pressupor.
 
 ---
 
@@ -90,6 +95,25 @@ Imagine que o Iago estudou as 66 fontes durante um ano. Leu, anotou, conectou. D
 **A tabela de relações desaparece no texto final.** Igual, adição, contradição, ramificação: isso é como você **descobre** o que é consenso, o que é voz de um só, onde está a briga. Depois de descobrir, o resultado vai em prosa. ⚠️ Rótulo de relação em cada parágrafo transforma o livro em planilha anotada, e foi o erro da v1.
 
 **Nomes: só quem é indispensável.** O autor do método aparece com nome, porque não dá para falar do método sem ele. Todos os outros somem para dentro do texto: *"um cara que praticava há vinte anos largou os contextos"*, *"uma mãe com dois filhos pequenos refez o método porque não tinha os dois dias que o livro pede"*. A tabela de fontes fica no anexo para quem quiser rastrear.
+
+## Feynman é cobertura, antes de ser estilo
+
+**O livro ensina o assunto inteiro, do zero, para quem nunca viu.** Alguém que leu só este documento sai sabendo o assunto e consegue aplicar sozinho, sem ter lido nenhuma fonte.
+
+Isso é a parte do pedido que se perde mais fácil, porque ela não se manifesta como frase errada no texto: manifesta-se como **capítulo que não existe**. Ninguém revisando o livro repara na explicação que falta.
+
+⚠️ **O erro real (livro de GTD, v2):** eu abri dizendo que o leitor já praticava GTD e por isso não precisava saber o que é uma caixa de entrada, e fui direto para "o que as fontes revelam sobre o método". O livro discutia um método que nunca ensinou. Ele pediu para estudar o assunto justamente por não praticar.
+
+**O teste de cobertura da Lei nº 1 não pega isso**, porque ele pergunta se tudo que as fontes ensinam está no livro. As fontes pressupõem o básico do próprio assunto, então o básico não está em nenhuma delas, e o livro passa no teste sem ensinar nada. Então o teste é duplo:
+
+| Teste | Pergunta |
+|---|---|
+| **Cobertura das fontes** (Lei nº 1) | Tudo que cada fonte ensina está em algum lugar do livro? |
+| **Cobertura do assunto** (Feynman) | Um leigo que leu só isto sabe o assunto e consegue aplicar? |
+
+Falhar no segundo produz um livro de comentário sobre uma coisa que o leitor não conhece, que é o gênero mais inútil que existe.
+
+**Como isso se resolve na prática:** ensinar e discutir andam juntos, no mesmo capítulo, nunca em blocos separados. Você explica a peça e, ali mesmo, conta o que as fontes revelaram sobre ela: onde discordam, o que envelheceu, quem abandonou. Separar daria um manual ingênuo seguido de uma crítica sem objeto.
 
 ## Feynman: o teste que separa digerir de parafrasear
 
@@ -156,6 +180,8 @@ O índice é a espinha do argumento. Se ele está ruim, o livro está ruim, e é
 
 **Teste do índice:** leia só os títulos em sequência. Isso conta uma história? Se ler como lista de tópicos, refaça.
 
+⚠️ **Segundo teste do índice, e é onde a v2 do GTD morreu:** o índice ensina o assunto, ou só comenta ele? Se os títulos são todos "o que as fontes acham de X" e nenhum é "como X funciona", falta o livro inteiro. As peças do assunto precisam estar no índice com nome próprio, em ordem de pré-requisito.
+
 ---
 
 # A abertura: "como ler este documento"
@@ -165,7 +191,9 @@ Todo livro digerido começa com uma abertura curta que faz cinco coisas, antes d
 **1. Declara o leitor e de onde ele parte.**
 > "Você é arquiteto de software e é leigo em agência. Este texto assume exatamente isso."
 
-Normalmente o leitor é o Iago, e o ponto de partida é o que ele já sabe do assunto. Se ele já pratica o método há anos, não explique o básico como se fosse novidade: explique **por que o básico é revisitado**.
+Normalmente o leitor é o Iago, e o ponto de partida é **leigo no assunto**, porque foi por não conhecer que ele mandou consumir as fontes.
+
+⚠️ **Nunca pressuponha que o leitor já sabe o assunto, e nunca peça permissão para pular o básico.** Se você se pegar escrevendo "você já conhece X, então não vou explicar", pare: você acabou de inventar um leitor para justificar um corte. Ele pediu para estudar aquilo. Quem estuda não sabe ainda.
 
 **2. Declara a ordem e o tempo de leitura.**
 > "Foi escrito para ser lido em sequência, em umas três horas. A ordem importa: cada parte usa vocabulário e conclusões que a anterior estabeleceu. Se pular direto para as telas, vai ler nomes que ainda não significam nada."
@@ -242,9 +270,9 @@ Esta é a etapa que diferencia digestão de resumo. **Nenhuma relação autoriza
 
 Ordem argumentativa, conforme acima. Cada parte com um ganho declarado para o leitor. Só depois de o índice contar uma história é que se escreve.
 
-## 4. Escrever, capítulo por capítulo em arquivos separados
+## 4. Escrever o livro inteiro, numa passada, num arquivo só
 
-**Arquivos numerados** (`00-abertura.md`, `01-problema.md`, … `10-anexo.md`) concatenados no fim. Isso resolve o problema prático de escrever um documento longo: cada capítulo é uma unidade de trabalho, e a concatenação é mecânica.
+Lei nº 4 aplicada: **um arquivo, escrito de uma vez, com todo o material no contexto.** Capítulo por capítulo em arquivos numerados é solução de engenharia para um limite de memória que você não tem, e o preço é o livro desconectado.
 
 ### Regras de escrita do corpo
 
@@ -375,7 +403,7 @@ Colete com `/consume` (vídeo, post, curso, arquivo local) ou lendo os arquivos 
 
 # Saída
 
-**Um arquivo `.md`**, capítulos numerados concatenados. Nunca partes soltas no chat.
+**Um arquivo `.md`**, escrito inteiro numa passada. Nunca partes soltas no chat.
 
 No chat vai só: onde salvou, o índice, e as três ou quatro coisas que mais surpreenderam no material.
 
