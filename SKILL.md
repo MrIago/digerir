@@ -25,6 +25,10 @@ Se uma informação de qualquer fonte não aparece em lugar nenhum do output, **
 
 ⚠️ **O erro que acontece na prática:** julgar que algo é "só implementação" e não "conceito", ou "detalhe" e não "ideia", e deixar de fora. Esse julgamento não é seu. Se a fonte gastou tempo explicando, entra.
 
+⚠️ **A palavra "resumir" não existe aqui.** Se você se pegar pensando "vou resumir", "o essencial é", "o mais relevante é", "para não ficar longo", pare. Essas frases são o sintoma de que o modo errado ligou. **Compilar é o padrão, não a exceção.** Não existe versão curta: existe versão organizada.
+
+⚠️ **Tamanho não é problema.** Um estudo de 60 fontes vai ser longo, e isso é correto. Cortar para caber é a mesma falha com outro nome. Se o volume for grande, quebre em partes e entregue em sequência, nunca reduza o conteúdo.
+
 **Verificação antes de entregar:** percorra fonte por fonte e pergunte *"tudo que esta fonte ensina está presente em algum lugar do texto?"*. Se a resposta for não para qualquer item, volte.
 
 ## O princípio que organiza tudo
@@ -153,6 +157,12 @@ Isso é o mesmo mecanismo do loop aberto do GTD: o que consome atenção é o n�
 ---
 
 # Coletando o material
+
+## ⛔ Os comentários fazem parte do material
+
+**Sempre colete a seção de comentários, não só o conteúdo.** Ela é uma fonte independente sobre o mesmo assunto e carrega o que o autor não deu: a solução de um atrito que ele mostrou e não resolveu, quem tentou e falhou (o caso negativo), a correção de um erro dele, e a pergunta que todos têm (visível como a mais votada).
+
+`/consume` extrai comentários de YouTube, Instagram, TikTok, Twitter/X (`--thread`) e Reddit. **Deixar de puxar é perder fonte**, exatamente como deixar de assistir um dos vídeos.
 
 Colete com `/consume` (vídeo, post, curso, arquivo local) ou lendo os arquivos direto.
 
