@@ -15,6 +15,17 @@ O pedido original, nas palavras dele:
 - **Não é resumo.** Resumo encurta e perde. Digestão reorganiza e mantém tudo que ensina algo.
 - **Não é lista de fontes.** "O vídeo A disse X, o vídeo B disse Y" é catálogo, não estudo. A fonte vira citação dentro do argumento, não seção.
 - **Não é concatenação.** Se o resultado tem o mesmo conceito explicado duas vezes, falhou.
+- **Não é curadoria.** Você não decide o que é relevante. A curadoria já aconteceu quando ele escolheu consumir aquelas fontes.
+
+## ⛔ A regra que não se quebra: não filtrar
+
+**"Eliminar redundância" significa desduplicar, não descartar.** O mesmo conceito aparece uma vez em vez de cinco. Todo o resto continua.
+
+Se uma informação de qualquer fonte não aparece em lugar nenhum do output, **é bug**, não escolha editorial.
+
+⚠️ **O erro que acontece na prática:** julgar que algo é "só implementação" e não "conceito", ou "detalhe" e não "ideia", e deixar de fora. Esse julgamento não é seu. Se a fonte gastou tempo explicando, entra.
+
+**Verificação antes de entregar:** percorra fonte por fonte e pergunte *"tudo que esta fonte ensina está presente em algum lugar do texto?"*. Se a resposta for não para qualquer item, volte.
 
 ## O princípio que organiza tudo
 
@@ -41,19 +52,24 @@ Antes de escrever, liste mentalmente:
 - **Quais conceitos aparecem** e em quantas fontes cada um aparece
 - **Onde estão os números, nomes e citações literais**: esses são insubstituíveis
 
-## 2. Classificar cada informação em uma das cinco relações
+## 2. Classificar cada informação por RELAÇÃO com as outras fontes
 
-Esta é a etapa que diferencia digestão de resumo:
+Esta é a etapa que diferencia digestão de resumo. **Nenhuma relação autoriza descartar** — cada uma diz apenas *onde* a informação vai e *como* apresentá-la.
 
 | Relação | O que fazer |
 |---|---|
-| **Redundante** (várias fontes dizem o mesmo) | Explica **uma vez**, na fonte mais autoritativa. Cita as outras só se agregarem número ou exemplo |
-| **Complementar** (cada fonte cobre um pedaço) | **Funde num bloco só**, sem costura visível. O leitor não deve perceber que veio de lugares diferentes |
-| **Ramificação** (base comum, aplicações diferentes) | Explica a base uma vez, depois as ramificações como variações |
-| **Contradição** (as fontes discordam) | ⚠️ **Nunca esconda.** Dá os dois lados, diz quem tem mais peso e por quê. Contradição bem tratada é o que dá credibilidade ao estudo |
-| **Único** (só uma fonte tem) | Mantém integralmente. Costuma ser o mais valioso |
+| **Igual** (várias fontes dizem o mesmo) | Funde numa **aparição só**, na fonte mais autoritativa. As outras entram só se agregarem número, exemplo ou formulação melhor |
+| **Novo** (só uma fonte tem) | Mantém integral, e **marca como único**. Costuma ser o mais valioso do estudo |
+| **Adição** (complementa sem contradizer) | Funde no mesmo bloco, citando quem acrescentou |
+| **Ramificação** (base comum, aplicações diferentes) | Base uma vez, depois as variações |
+| **Discordância** (as fontes divergem) | ⚠️ **Nunca esconde.** Os dois lados, com quem tem mais peso e por quê |
+| **Correção** (uma fonte mostra que outra errou) | Diferente de discordar: aqui uma está factualmente errada. Aponta o erro e a correção |
+| **Contribuição original** (a fonte inventou algo fora do material base) | ⚠️ **Marca explicitamente como criação da fonte.** É o tipo de item mais fácil de perder e um dos mais úteis |
+| **Autocrítica** (a fonte critica o próprio método) | Dado forte, quase sempre honesto. Entra sempre |
+| **Aplicação** (mesma ideia, contexto diferente) | **Não é redundância.** Mantém, mostrando que a ideia generaliza |
+| **Exemplo ou caso** (instância concreta de um conceito) | Mantém. É o que faz o leitor entender de verdade |
 
-**A contradição é o ouro.** Quando um praticante de 10 anos abandona uma peça do método, isso ensina mais que dez vídeos elogiando.
+**A discordância e a contribuição original são o ouro.** Quando um praticante de 10 anos abandona uma peça do método, ou quando alguém cria algo que o método original não tinha, isso ensina mais que dez fontes repetindo o básico.
 
 ## 3. Hierarquizar por dependência
 
