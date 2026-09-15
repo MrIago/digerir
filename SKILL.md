@@ -71,6 +71,60 @@ Corolário direto da lei nº 1 aplicada à forma. Um conceito explicado duas vez
 
 ---
 
+# ⛔ Lei nº 3: é você falando, não as fontes
+
+**A saída é uma aula que VOCÊ dá, não o caderno de anotações que você fez.**
+
+Imagine que o Iago estudou as 66 fontes durante um ano. Leu, anotou, conectou. Descobriu que A e B dizem o mesmo com palavras diferentes, que C contradiz os dois e tem razão num ponto, que D acrescentou algo que ninguém viu. Processou até virar conhecimento dele. Agora ele senta e ensina.
+
+**Ele não abre o caderno de citações. Ele fala.** E o que sai é a explicação dele, na ordem que ele descobriu ser a melhor, com tudo dentro porque ele sabe tudo.
+
+É isso que o digerir produz. O caderno organizado é a v1 do livro de GTD, e ela estava errada.
+
+## O que isso significa na prática
+
+**Citação é exceção, não estrutura.** Entra quando a formulação original é insubstituível e vale ser lida palavra por palavra. Num livro de 60 fontes isso dá umas quinze citações, não trezentas. Se mais de 10% do texto está em blockquote, você está colando, não digerindo.
+
+**Nada de "a fonte X disse que".** A informação entra como você afirmando, porque você sabe. Quando o número de fontes que concordam é informativo, você diz o número em prosa: *"todo mundo repete essa frase, e ela é incompleta"*, *"três praticantes independentes abandonaram essa peça"*.
+
+**A tabela de relações desaparece no texto final.** Igual, adição, contradição, ramificação: isso é como você **descobre** o que é consenso, o que é voz de um só, onde está a briga. Depois de descobrir, o resultado vai em prosa. ⚠️ Rótulo de relação em cada parágrafo transforma o livro em planilha anotada, e foi o erro da v1.
+
+**Nomes: só quem é indispensável.** O autor do método aparece com nome, porque não dá para falar do método sem ele. Todos os outros somem para dentro do texto: *"um cara que praticava há vinte anos largou os contextos"*, *"uma mãe com dois filhos pequenos refez o método porque não tinha os dois dias que o livro pede"*. A tabela de fontes fica no anexo para quem quiser rastrear.
+
+## Feynman: o teste que separa digerir de parafrasear
+
+Da skill `explain-codebase`, e vale igual aqui:
+
+| Parafraseando (ruim) | Explicando (bom) |
+|---|---|
+| "a fonte diz que a mente é para ter ideias, não para guardá-las" | "o problema não é a sua mente esquecer, é que ela não esquece: ela lembra na hora errada e sem te dizer o que fazer" |
+| "ele afirma que estresse vem de acordos pouco claros" | "se a causa fosse volume, a cura seria fazer mais rápido. Como é falta de clareza, a cura é decidir, que é outra operação e mais barata" |
+
+**Teste:** se a frase descreve *o que a fonte falou*, é paráfrase e não vale o espaço. Se descreve *por que aquilo é verdade e o que decorre disso*, é explicação.
+
+E o corolário que a v1 violou: **a explicação boa frequentemente não está em fonte nenhuma.** Ela é a conexão que você faz entre duas fontes que nunca se falaram. Isso não é invenção: é o produto do trabalho.
+
+---
+
+# ⛔ Lei nº 4: uma passada só, tudo no contexto
+
+**Escreva o livro inteiro numa cadeia de raciocínio única, com todo o material bruto no contexto.**
+
+A conexão entre o capítulo 6 e o capítulo 12 só existe se você estiver segurando os dois na cabeça no mesmo instante. Se você escreve capítulo por capítulo, cada um fica bom isolado e o livro fica ruim, porque as conexões viram "ver seção 6.6", que é **a confissão de que você não conectou, só apontou.**
+
+Isso é o que você tem e um humano não: capacidade de carregar 150 mil palavras de material e montar de uma vez. Use.
+
+Consequências práticas:
+
+- **Um arquivo.** Não 18 capítulos numerados (isso foi solução de engenharia para um problema que você não tem).
+- **Leve o tempo que precisar numa resposta só.** Não entregue em partes no chat.
+- **Zero referência para frente.** Se o gancho é útil, resolve ali em duas frases. "Volto nisso adiante" sem número é aceitável; "ver 11.4" é dívida.
+- **Referência para trás é ótima**, porque recompensa quem leu em ordem e reforça o encadeamento.
+
+⚠️ E o tamanho cai. O mesmo material que virou 203 páginas de citação vira 70 de prosa, com **mais** informação por página. Menos páginas não é menos conteúdo: é o mesmo conteúdo sem a redundância de dizer tudo duas vezes (uma na citação, outra na sua glosa da citação).
+
+---
+
 # A estrutura: ordem argumentativa, não taxonômica
 
 **A ordem é o que faz o livro ser legível, e é onde a versão fatiada falha.**
@@ -132,13 +186,13 @@ A razão precisa ser concreta, não formal. Modelo real:
 
 ---
 
-# Marcação: três selos, só de epistemologia
+# Marcação: o mínimo possível
 
-⚠️ **Não marque tipo de relação entre fontes no corpo do texto.** Dez emojis de relação por parágrafo (igual, novo, adição, ramificação, discordância...) transformam o livro em planilha anotada. A relação entre as fontes **se escreve em prosa**, no lugar onde ela importa.
+⚠️ **Nenhum rótulo de relação entre fontes no corpo do texto.** Isso é Lei nº 3 e foi o erro da v1.
 
-As relações da tabela abaixo são **ferramenta de raciocínio na hora de escrever**, não notação de saída.
+E vá com calma até nos selos de confiança. Num texto em prosa, **o mais limpo é dizer em palavras**: "na minha leitura", "isso é dedução minha", "o material não responde". Selo só quando a distinção precisa ser escaneável, tipo num anexo de perguntas abertas.
 
-O que vai marcado é só o **grau de confiança**, com três selos:
+Se usar selo, três no máximo:
 
 | Selo | Significa | Exige |
 |---|---|---|
